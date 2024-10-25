@@ -1,0 +1,16 @@
+{
+  "name": "wip-placeholder",
+  "private": true,
+  "sideEffects": false,
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler pages dev ./public",
+    "deploy": "wrangler pages deploy ./public --branch production"
+  },
+  "devDependencies": {
+    "wrangler": "^3.51.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
